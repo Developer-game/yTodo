@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yTodo/static/css/main.6b4a0cbc.css",
+    "main.js": "/yTodo/static/js/main.5e8246e8.js",
+    "index.html": "/yTodo/index.html",
+    "main.6b4a0cbc.css.map": "/yTodo/static/css/main.6b4a0cbc.css.map",
+    "main.5e8246e8.js.map": "/yTodo/static/js/main.5e8246e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b4a0cbc.css",
+    "static/js/main.5e8246e8.js"
+  ]
+}
