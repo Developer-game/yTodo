@@ -148,7 +148,7 @@ useEffect(() => {
     </div>
 
     <div className="flex bg-white text-slate-800 gap-5 mt-4  ">
-      <input type="text" name='data' className='sm:w-3/4 w-[96%] bg-white text-slate-800 border-slate-800 border-[5px] rounded-lg mx-4 p-2 font-mono font-bold pr-12'  onChange={handlechange} value={save}  />
+      <input type="text" name='data' className='sm:w-3/4 w-[96%] bg-white text-slate-800 border-slate-800 border-[5px] rounded-lg sm:mx-4 ml-[0.5rem] mr-[0rem] p-2 font-mono font-bold pr-12'  onChange={handlechange} value={save}  />
        { editId ? <div className=" text-[rgb(240,30,30)]  ml-[-80px] h-0 mt-4 mr-[33px]" >Edit</div> : null }
       <button className="font-bold text-xl border-[4px] rounded-full border-slate-800 p-3 mr-2  " disabled={save.length <3} onClick={handlesave}>Save</button>
     </div>      
